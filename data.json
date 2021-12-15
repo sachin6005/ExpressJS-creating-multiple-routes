@@ -1,1 +1,9 @@
-{"id":2,"Name":"Raviteja","Job":"engineer"}
+[
+{"id":1,"Name":"Raviteja","Job":"engineer"},
+{"id":2,"Name":"sachin","Job":"engineer"},
+{"id":3,"Name":"Hari","Job":"engineer"},
+{"id":4,"Name":"benerzee","Job":"engineer"},
+{"id":5,"Name":"vamshi","Job":"engineer"},
+{"id":6,"Name":"raghu","Job":"engineer"},
+{"id":7,"Name":"dhanush","Job":"engineer"}
+]

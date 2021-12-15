@@ -81,14 +81,6 @@ exports.updatePerson =(req, res) => {
             message: 'invalid ID'
         })
     }
-    // const id = req.params.id * 1
-    // const person = student.find(i => i.id === id)
-    // person.Name = req.body.Name
-    // person.Job = req.body.Job
-
-    // const newperson = Object.assign({id: id},req.body)
-    // student.push(newperson)
-   // fs.writeFile('/home/sachin/Documents/CGCS phase2/NodeJS/ExpressJS/ExpressJS-Routing/data.json',JSON.stringify(person),err => { })
     res.status(200).json({
         status : 'success',
         

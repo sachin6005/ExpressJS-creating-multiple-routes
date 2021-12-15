@@ -23,26 +23,6 @@ app.use((req,res,next) => {
     next()
   })
 
-
-
-
-
-// app.get('/api/v1/student', getStudent)
-// app.post('/api/v1/student', createStudent)
-// app.get('/api/v1/student/:id', getPerson)
-// app.patch('/api/v1/student/:id', updatePerson)
-// app.delete('/api/v1/student/:id', deletePerson)
-
-
-
-
-
-
-
-
-
-
-
 app.use('/api/v1/student', studentRouter)
 app.use('/api/v1/users', userRouter)
 
